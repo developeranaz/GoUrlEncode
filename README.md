@@ -2,6 +2,9 @@
 
 This repository contains a simple URL encoder application implemented in Go. The application takes in a string as input and returns its URL-encoded equivalent.
 
+This tool offers numerous advantages. I originally created it to address a limitation in the messaging feature of Telegram bots. Sending messages through bots using pre-installed applications like curl can make the system lightweight and conserve storage. Encoding URLs with Python is straightforward, however, it requires a larger storage space. On the other hand, using a Golang script for URL encoding offers a more efficient solution. The script can be compiled into a binary that is compatible with various operating systems and does not require Golang to be installed on the system. The resulting binary is lightweight, fast and has a much smaller size compared to Python.
+
+
 ## Building the application
 
 To build the application, you will need to have Go installed on your system. Once you have Go set up, follow these steps:
